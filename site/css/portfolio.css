@@ -95,8 +95,20 @@ p {
 .skills {
   display: flex;
   flex-direction: row-reverse;
-  margin: 0;
 }
+
+.disabled {
+  opacity: 50%;
+}
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+
 
 @media screen and (max-width: 700px) {
   .avatar-bis {

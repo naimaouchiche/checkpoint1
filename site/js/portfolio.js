@@ -6,10 +6,6 @@ myAvatar.addEventListener("click", function(){
 
 
 
-// const imgDog = document.querySelector('.img-dogs');
+const val = prompt ("Enter your name");
+const myName = document.getElementById ("#name");
 
-// // We add a listener on the dog image, when the user clicks on the latter, it changes the src 
-// myAvatar.addEventListener('click', function () {
-//   imgDog.src = "https://placedog.net/300";
-//   imgDog.alt = "Happy cute dog";
-// });
