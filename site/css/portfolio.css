@@ -80,3 +80,31 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .avatar-bis {
+    display: none;
+  }
+
+  .skills {
+    flex-direction: column-reverse;
+  }
+  
+}
